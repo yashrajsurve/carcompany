@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Dancing+Script:wght@400;500&family=Georama:wght@200&family=Indie+Flower&family=Kenia&family=Lobster+Two&family=Montserrat+Alternates:wght@100&family=Pacifico&family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+
+
+    <style>
+        body
+        {
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+        form h2
+        {
+            font-family: orbitron;
+            color: rgb(208, 22, 22);
+        }
+        form p
+        {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 17px;
+        }
+        input, select
+        {
+            padding: 10px;
+            width: 500px;
+            border: none;
+            border-bottom: 2px solid black;
+        }
+        select
+        {
+            padding: 10px;
+            width: 520px;
+            border: none;
+            border-bottom: 2px solid black;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 17px;
+        }
+        #Query
+        {
+            border: 1px solid black;
+            height: 100px;
+        }
+        ::placeholder
+        {
+            font-size: 17px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #Query::placeholder
+        {
+            position: relative;
+            bottom: 50px;
+        }
+        .form-Elements
+        {
+            display: flex;
+        }
+        .query-section
+        {
+            margin-left: 70px;
+        }
+        button
+        {
+            padding: 10px;
+            width: 80px;
+            border: none;
+            background-color: red;
+            color: white;
+            font-size: 17px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <form action="">
+
+        <h2>THANKS FOR YOUR INTEREST IN MAHINDRA</h2>
+        <p>Please provide your most valuable information, so we can help you better!</p>
+        
+        <div class="form-Elements">
+
+            <div class="name-email-section">
+                <input type="text" name="name" id="Name" placeholder="Name" > <br><br>
+                <input type="email" name="email" id="Email" placeholder="Email" > <br><br>
+        
+                <select name="industry" id="Industry"  >
+                    <option value="">Choose the industry </option>
+                    <option value="">Automotive</option>
+                    <option value="">Brand & Corporate</option>
+                    <option value="">Emerging & Equity Investment</option>
+                    <option value="">Farm Equipment</option>
+                    <option value="">Financial Services</option>
+                </select>
+            </div>
+
+            <div class="query-section">
+                <input type="text" name="query" id="Query" placeholder="Enter your query here..."><br><br>
+
+                <button>Submit</button>
+            </div>
+
+        </div>
+
+    </form>
+
+</body>
+</html>

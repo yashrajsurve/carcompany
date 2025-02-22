@@ -1,0 +1,617 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+/* ----------------HEADER-------------------- */
+
+.header
+{
+    /* border: 1px solid white; */
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    /* padding-bottom: 10px; */
+    background-color: black;
+}
+.nav
+{
+    /* border: 2px solid  white; */
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 200px;
+}
+#logo
+{
+    color: white;
+    font-size: 30px;
+    font-family:cursive;
+}
+.logo
+{
+    /* border: 1px solid white; */
+    position: relative;
+    left: 100px;
+    bottom: 22px;
+}
+#searchlogo
+{
+    position: relative;
+    right: 60px;
+}
+.icon
+{
+    /* border: 1px solid white; */
+    border-radius: 50%;
+}
+.icon:hover
+{
+    border: 2px solid red ;
+}
+li
+{
+    list-style: none;
+    /* border: 1px solid wheat; */
+}
+.navanchor
+{
+    /* border: 1px solid white; */
+    text-decoration:none;
+    color: white;
+    margin-left: 80px;
+    font-size: 17px;
+    font-family: Georama;
+
+    background-color: black;
+    border: none;
+    margin-bottom: 10px;
+}
+.navanchor:hover
+{
+    color: red;
+}
+.anchor2:hover
+{
+    color: red;
+}
+.about
+{
+    position: relative;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.about:hover .navanchor
+{
+    color: red;
+}
+.sub-about 
+{
+    display: none;
+    position: absolute;
+    width: 1537px;
+    left: -370px;
+    height: 400px;
+    background-color: black;
+    z-index: 1;
+}
+
+.sub-about a
+{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 20px;
+    left: 440px;
+}
+.sub-about-img img
+{
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 950px;
+    top: -150px;
+    border-radius: 5px;
+}
+.about:hover .sub-about
+{
+    display: block;
+}
+.sub-about a:hover
+{
+    color: white;
+}
+
+.our
+{
+    position: relative;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.our:hover .navanchor
+{
+    color: red;
+}
+.sub-our 
+{
+    display: none;
+    position: absolute;
+    left: -525px;
+    width: 1537px;
+    height: 400px;
+    background-color: black;
+    z-index: 1;
+}
+.sub-our a
+{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 440px;
+}
+.sub-our-img img
+{
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 950px;
+    top: -70px;
+    border-radius: 5px;
+}
+.our:hover .sub-our
+{
+    display: block;
+}
+.sub-our a:hover
+{
+    color: white;
+}
+
+.investor
+{
+    position: relative;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.investor:hover .navanchor
+{
+    color: red;
+}
+.sub-investor 
+{
+    display: none;
+    position: absolute;
+    left: -715px;
+    width: 1538px;
+    height: 400px;
+    background-color: black;
+    z-index: 1;
+}
+.sub-investor a
+{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 440px;
+}
+.sub-investor-img img
+{
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 950px;
+    top: -150px;
+    border-radius: 5px;
+}
+.investor:hover .sub-investor
+{
+    display: block;
+}
+.sub-investor a:hover
+{
+    color: white;
+}
+
+.news
+{
+    position: relative;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.news:hover .navanchor
+{
+    color: red;
+}
+.sub-news 
+{
+    display: none;
+    position: absolute;
+    left: -962px;
+    width: 1537px;
+    height: 400px;
+    background-color: black;
+    z-index: 1;
+}
+.sub-news a
+{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 440px;
+}
+.sub-news-img img
+{
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 950px;
+    top: -110px;
+    border-radius: 5px;
+}
+.news:hover .sub-news
+{
+    display: block;
+}
+.sub-news a:hover
+{
+    color: white;
+}
+
+.careers
+{
+    position: relative;
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.careers:hover .navanchor
+{
+    color: red;
+}
+.sub-careers 
+{
+    display: none;
+    position: absolute;
+    left: -1130px;
+    width: 1536px;
+    height: 400px;
+    background-color: black;
+    z-index: 1;
+}
+.sub-careers a
+{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 440px;
+}
+.sub-careers-img img
+{
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 950px;
+    top: -185px;
+    border-radius: 5px;
+}
+.careers:hover .sub-careers
+{
+    display: block;
+}
+.sub-careers a:hover
+{
+    color: white;
+}
+
+
+/* -----------------IMAGES------------------- */
+.about-overview-container
+{
+    /* border: 2px solid green; */
+    width: 100vw;
+    height: 79vh;
+}
+
+.about-overview-content
+{
+    width: 100vw;
+    height: 79vh;
+    background-image: url(/Images/OurBusiness-GlobalPresence.png);
+    background-size: 100vw 100vh;
+    /* box-shadow: inset 0px 0px 60px 15px black; */
+}
+.content2
+{
+    color: white;
+    height:250px ;
+    width: 600px;
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+h1
+{
+    margin-top: 0;
+    font-family: Orbitron;
+    font-size:36px ;
+    color:white;
+}
+h1 span
+{
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    bottom: 15px;
+}
+
+
+
+/* -------HomeAbout-Section */
+.homeAbout-section
+{
+    width: 100vw;
+    height: 12vh;
+    /* border: 1px solid red; */
+}
+.homeabout p
+{
+    position: relative;
+    left: 70px;
+    top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* --------------COUNTRY NAMES------------- */
+
+.countries-container
+{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: pink; */
+}
+.countryList
+{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+.countries
+{
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.countries a
+{
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+}
+.countries a:hover
+{
+   transition: all 0.2s ease-in;
+   color: red;
+   text-decoration: underline;
+   text-underline-offset: 5px;
+}
+.country-vertical
+{
+    height: 20px;
+    border: 1px solid rgb(58, 57, 57);
+    margin-left: 10px;
+}
+
+
+
+/* ---------------------AMERICA TABLE---------------- */
+
+.table-container
+{
+    width: 100vw;
+    height: 550vh;
+    /* background-color: beige; */
+    text-align: center;
+}
+.table-container h2
+{
+    color: palevioletred;
+    font-weight: 300;
+    font-family: orbitron;
+}
+.america-table
+{
+    width: 80vw;
+    height: 195vh;
+    margin: auto;
+    /* background-color: lightgreen; */
+}
+.A-table
+{
+    width: 100%;
+}
+th
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    background-color:rgb(243, 243, 229);
+}
+tr
+{
+    height: 70px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+td
+{
+    border-bottom: 1px solid grey;
+}
+.location
+{
+    background-color: rgb(195, 187, 187);
+    color: white;
+    border-bottom: none;
+}
+
+/* --------------EUROPE TABLE------------- */
+
+.europe-table
+{
+    width: 80vw;
+    height: 175vh;
+    margin: auto;
+    /* background-color: lightgreen; */
+}
+.E-table
+{
+    width: 100%;
+}
+
+/* ----------AFRICA TABLE------------------ */
+
+.africa-table
+{
+    width: 80vw;
+    height: 55vh;
+    margin: auto;
+    /* background-color: lightgreen; */
+}
+.AF-table
+{
+    width: 100%;
+}
+
+/* --------------ASIA PACIFIC---------------- */
+
+.asia-table
+{
+    width: 80vw;
+    height: 10vh;
+    margin: auto;
+    /* background-color: lightgreen; */
+}
+.AP-table
+{
+    width: 100%;
+}
+
+
+/*---------------FOOTER------------ */
+
+footer
+{
+    margin-top: -250px;
+    width: 100vw;
+    height: 110vh;
+    background-color: black;
+}
+.footer-logo
+{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+.footer-link-items
+{
+    width: 98vw;
+    height: 80vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+    justify-items: start;
+}
+.footer-child
+{
+    /* background-color: pink; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-child ul li 
+{
+    font-size: 16px;
+    color: grey;
+    margin-top: 20px;
+}
+.footer-child ul li a
+{
+    font-size: 16px;
+    color: grey;
+    text-decoration: none;
+}
+.footer-child ul li a:hover
+{
+    color: white;
+}
+.footer-child ul #list-heading
+{
+    color: white;
+    
+}
+
+.terms-container .terms
+{
+    display: flex;
+    /* border: 1px solid green; */
+}
+.terms-container .terms li a
+{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.terms-vertical
+{
+    height: 20px;
+    border: 0.5px solid grey;
+    margin-left: 15px;
+}
+
+.social-media
+{
+    display: flex;
+    /* border: 1px solid green; */
+    width: 300px;
+    position: relative;
+    left: 1100px;
+    bottom: 50px;
+}
+.social-media li a img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.copyright
+{
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
